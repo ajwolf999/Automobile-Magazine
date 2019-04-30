@@ -1,0 +1,245 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:15px;
+    line-height: 1.5;
+    padding:0;
+    margin:0;
+    background-color:rgb(27, 26, 25);
+    color:rgb(10, 10, 10);
+}
+/*global */
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+
+}
+.button_1{
+    height:38px;
+    background:rgb(192, 28, 28);
+    border:none;
+    padding-left:20px;
+    padding-right:20px;
+    color:aliceblue;
+    cursor: pointer;
+
+}
+#form .button_2[type=submit] {
+    background-color: rgb(156, 161, 156);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+  
+ #form .button_2[type=submit]:hover {
+    background-color: #a8aaa8;
+  }
+/*header*/
+ header {
+     background:#126485;
+     color:rgb(241, 209, 209);
+     padding-top: 30px;
+     min-height: 70px;
+     border-bottom: rgb(49, 33, 31) 3px solid;
+    
+     
+
+ }
+
+ header a{
+     color:black;
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size:16px;
+ }
+
+
+header li{
+    float: left;
+    display: inline;
+    padding:0 20px 0 20px;
+    
+}
+ header #branding{
+     float: left;
+ }
+header #branding h1 {
+margin:0;
+}
+header nav{
+    float:right;
+    margin-top:10px;
+}
+
+ header .current a{
+color: white;
+font-weight: bold;
+ }
+ 
+ header a:hover{
+     color:gray;
+     font-weight:bold;
+
+ }
+
+ #showcase img{
+     min-height: 400px;
+     cursor: pointer;
+
+ }
+ #showcase h3{
+     color:rgb(24, 161, 202)
+ }
+ #showcase p{
+     color:aliceblue;
+ }
+ #showcase p div{
+     color:aliceblue;
+ }
+    /* boxes */
+    #boxes h1 {
+        color:rgb(24, 161, 202);
+
+    }
+ #boxes{
+     margin-top:20px;
+ }
+  #boxes .box{
+     float:left;
+     text-align: center;
+     width:30%;
+     padding:10px;
+     margin:3px;
+     border:1px;
+    
+ }
+ #boxes .box:hover{
+     border: 1px solid darkgrey;
+     cursor: pointer;
+     
+ }
+   /*..... Newsletter...*/
+  #Newsletter{
+      padding:15px;
+      color:aliceblue;
+      background-color:#492312;
+  }
+  #Newsletter h1{
+      float:left;
+
+  }
+  #Newsletter form{
+      float:right;
+      margin-top:15px;
+  }
+  #Newsletter input[type="email"]{
+      padding:4px;
+      height:25px;
+      width:250px;
+  }
+  /*... footer */
+ footer {
+     padding:20px;
+     margin-top: 20px;
+     color:white;
+     background-color: black;
+     text-align:center;
+     
+ }
+ 
+/*....CARS*/
+
+#showcase1 img{
+    min-height: 400px;
+    cursor: pointer;
+
+}
+#showcase1 h3{
+    color:rgb(24, 161, 202)
+}
+#showcase1 p{
+    color:aliceblue;
+}
+#showcase1 p div{
+    color:aliceblue;
+
+}
+#showcase2 img{
+    min-height: 400px;
+    cursor: pointer;
+
+}
+#showcase2 h3{
+    color:rgb(24, 161, 202)
+}
+#showcase2 p{
+    color:aliceblue;
+}
+#showcase2 p div{
+    color:aliceblue;
+
+}
+/*.....about...*/
+#about h1{
+    color:rgb(24, 161, 202)
+}
+#about  p{
+    color:aliceblue;
+}
+#about p div{
+    color:aliceblue;
+}
+#Cartable h2{
+  color:  rgb(24, 161, 202) 
+
+}
+#Cartable table{
+    color:aliceblue;
+}
+#Cartable table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even){background-color: #0e0808}
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+/*.....Contact us....*/
+
+#form{
+    margin:0;
+    padding:0;
+    background-color:black;
+    color:aliceblue;
+    background-size: cover;
+}
+#form h1{
+    color:rgb(24, 161, 202) 
+}
+#form label{
+    float:left;
+
+}
+#form input[type=text],[type=Email],[type=number],textarea{
+ 
+    width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+
+
+    
